@@ -20,4 +20,4 @@ goto :final2
 
 :final2
 set account=
-echo se ha cambiado tu cuenta de Github
+echo se ha cambiado tu cuenta de Github 
