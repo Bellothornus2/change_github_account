@@ -1,0 +1,1 @@
+Pues este change_github_account te permite descargar un pequeño script que te haga cambiar la cuenta del usuario de github fácilmente

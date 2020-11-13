@@ -6,13 +6,13 @@ set /p account=Elige Personal o Educativa (P o E):
 if %account%==P goto :personal 
 if %account%==E goto :educativa
 
-:personal
+:educativa
 git config --unset credential.helper
 git config --global user.name bellothornus2
 git config --global user.email divanov@cifpfbmoll.eu
 goto :final2
 
-:educativa
+:personal
 git config --unset credential.helper
 git config --global user.name bellothornus
 git config --global user.email bellothornus@gmail.com
